@@ -14,7 +14,7 @@ if ($estDB->connect_error) {
 
 echo "Conexión exitosa <br>";
 
-// Mostrar datos
+
 $sqlSelect = "SELECT * FROM estudiantes";  
 $resultSelect = $estDB->query($sqlSelect);
 if ($resultSelect->num_rows > 0) {
